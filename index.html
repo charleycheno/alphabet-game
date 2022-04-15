@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Alphabet Game</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Alphabet Value Order Game</h1>
+    <div id="game">
+      <div id="letter"></div>
+      <form id="form">
+        <input type="number" id="input" min="1" max="26" placeholder="Value from 1 to 26">
+        <input type="submit" id="check" value="Check" hoverable>
+        <input type="button" id="skip" value="Skip" hoverable>
+        <input type="button" id="show" value="Show answer" hoverable>
+      </form>
+      <p id="message">Not correct / Correct / Invalid input</p>
+    </div>
+    <footer>
+      <p>© 2022 | Designed by Charley Chen</p>
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
